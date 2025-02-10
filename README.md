@@ -17,6 +17,10 @@ This is a React + Firebase-based Course Management Application.
 - Student Dashboard (Progress Bar for enrolled courses)
 - Like & Enroll functionality
 - Real-time updates using Firebase
+- ## firbase
+- In firebase i manually created two collections , courses and students.
+- courses has the following fields()
+- students has the following fields()
 
 ## Installation & Setup 🛠
 1. Clone the repository:
