@@ -19,8 +19,8 @@ This is a React + Firebase-based Course Management Application.
 - Real-time updates using Firebase
 - ## firbase
 - In firebase i manually created two collections , courses and students.
-- courses has the following fields()
-- students has the following fields()
+- courses has the following fields(completion(timestamp),description(string),duration(number),enrollment_status(string),instructor(string),likes(number),location(string),name(string),prerequisites(string),schedule(string),syllabus(array of maps of content(string),topic(string),week(number)),thumbnail(string)).
+- students has the following fields(enrolledCourses(array of courseId's), likedCourses(array of courseId's which are liked)).
 
 ## Installation & Setup 🛠
 1. Clone the repository:
